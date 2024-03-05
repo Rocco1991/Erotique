@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+    
+    .nav-buttons {
+        margin-left: 50%;
+    }
+    
+    body {
+        font-family: "poppins", sans-serif;
+    }
+
+    
+    body h1 {
+        color: #DAAB2D;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 100;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+    
+    h5 {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    h6 {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    
+    
+    .navbar {
+        font-size: 18px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        top: 0;
+        left: 0;
+        box-shadow: 0 4px goldenrod;
+        background-color: black;
+        
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 10px;
+        color: white;
+        transition: 0.4s ease;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar i:hover,
+    .navbar-light .navbar-nav .nav-link.active .navbar i:hover {
+        color: #DAAB2D;
+    }
+    
+    .navbar i {
+        font-size: 1.2rem;
+        padding: 0 0.7px;
+        transition: 0.4s ease;
+        cursor: pointer;
+        margin-left: 20px;
+        color: white;
+    }
+
+    .brand {
+        color: #f4f4f4; 
+        text-transform: uppercase;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 100;
+        user-select: none;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+
+/* HOME */
+  
+
+/* SIDEBAR */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 170px;
+    left: 10px;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+/* CSS for main content */
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+/* CSS for search bar */
+.search-container {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.search-input {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input input[type="text"] {
+    padding-right: 30px; /* Adjust padding to make space for the icon */
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.search-input i {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the right position as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* CSS for individual countries */
+.country {
+    margin-bottom: 10px;
+}
+
+#countryList {
+    /* Add padding or margin to create space */
+    padding-top: 10px;
+}
+
+#countryList > h2 {
+    /* Style the EUROPE list item */
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    user-select: none;
+    
+}
+
+.scrollable-list {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+
+  /* FOOTER */
